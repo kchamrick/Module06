@@ -1,0 +1,58 @@
+
+.flex-container {
+  display: flex;
+  width:200px;
+  flex-wrap: wrap;
+  background-color: olivedrab;
+  flex-direction: column;
+  font-family:Arial, Helvetica, sans-serif;
+  color:pink
+}
+
+.flex-container div {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+#pantry{
+    border:20px solid ;
+    background-color: dodgerblue;
+    padding: 10px;
+    color: pink;
+}
+#container{
+    display:flex;
+    justify-content:space-evenly;
+}
+img{
+    width:400px;
+    height:auto;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif
+}
+h1{
+    font-family:Arial;
+    Color:DodgerBlue;
+    font-size:xxx-large;
+
+    text-align: center;
+    text-decoration-thickness: 10px;
+    font-weight:bolder
+}
+#freezer{
+    border:20px solid pink;
+    background-color:dodgerblue;
+    padding:10px;
+    color:pink
+}
+h3{
+    text-align:center;
+    color:darkred;
+}
+.special-character::before {
+    content: "\2605"; 
+  }
